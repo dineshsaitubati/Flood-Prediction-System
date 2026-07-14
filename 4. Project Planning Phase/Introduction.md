@@ -1,0 +1,1 @@
+The Project Planning Phase was carried out to organize the development of the flood prediction system in a systematic manner. The project was divided into different stages, beginning with problem identification and ending with deployment. This approach helped in completing each task efficiently while ensuring proper testing and documentation.

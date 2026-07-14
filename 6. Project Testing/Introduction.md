@@ -1,0 +1,1 @@
+Testing was performed to verify the correctness and reliability of the flood prediction system. Both the machine learning model and the Flask web application were tested using different input values to ensure accurate predictions and proper application functionality.

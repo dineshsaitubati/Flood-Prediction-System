@@ -1,0 +1,1 @@
+The Project Design Phase focuses on designing the overall structure of the flood prediction system before implementation. The application was designed using a modular approach, where each component performs a specific task. The system mainly consists of the Machine Learning module for prediction and the Flask web application for user interaction.

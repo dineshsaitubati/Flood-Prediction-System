@@ -1,0 +1,1 @@
+The completed flood prediction system was demonstrated to verify its functionality. The demonstration included navigating through the web application, entering weather parameters, and generating predictions using the trained machine learning model.

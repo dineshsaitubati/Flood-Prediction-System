@@ -1,0 +1,1 @@
+The Flask application was tested to verify page navigation, form validation, model prediction, and result display. The application successfully generated predictions and displayed the appropriate result pages based on user input.

@@ -1,0 +1,1 @@
+The saved model was integrated into a Flask web application. User inputs entered through the prediction form are converted into a DataFrame, transformed using the saved StandardScaler, and passed to the trained model to generate predictions. Based on the prediction, the application displays either the Flood Risk Detected page or the No Flood Predicted page.
