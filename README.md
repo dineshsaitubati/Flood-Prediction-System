@@ -204,7 +204,7 @@ The complete project documentation is available in the following folders:
 
 Project Demonstration Video:
 
-**Link:** *(Add your YouTube or Google Drive video link here.)*
+**Link:** *(..............)*
 
 ---
 
@@ -212,7 +212,7 @@ Project Demonstration Video:
 
 The deployed application can be accessed at:
 
-**Link:** *(Add your Render deployment URL here.)*
+**Link:** *(.............)*
 
 ---
 
