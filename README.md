@@ -87,10 +87,10 @@ The following machine learning algorithms were implemented and evaluated.
 
 | Model | Accuracy |
 |--------|----------|
-| Decision Tree | 95.65% |
-| Random Forest | 95.65% |
-| K-Nearest Neighbors | 86.96% |
-| Gradient Boosting | 95.65% |
+| Decision Tree | 96.55% |
+| Random Forest | 96.55% |
+| K-Nearest Neighbors | 89.66% |
+| Gradient Boosting | 96.55% |
 
 Gradient Boosting was selected as the final deployment model due to its reliable prediction performance and strong generalization capability.
 
@@ -236,8 +236,4 @@ Computer Science and Engineering
 
 SRM University – AP
 
----
 
-## License
-
-This project is developed for educational and academic purposes.
