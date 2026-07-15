@@ -204,7 +204,7 @@ The complete project documentation is available in the following folders:
 
 Project Demonstration Video:
 
-**Link:** *(..............)*
+**Link:** *(https://drive.google.com/file/d/1qtjxwEzif_m5YM0rk4EIdj0MoiFxi3xv/view?usp=sharing)*
 
 ---
 
@@ -212,7 +212,7 @@ Project Demonstration Video:
 
 The deployed application can be accessed at:
 
-**Link:** *(.............)*
+**Link:** *(https://flood-prediction-system-eh0x.onrender.com/)*
 
 ---
 
