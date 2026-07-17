@@ -1,25 +1,18 @@
 ## System Flowchart
 
-The workflow of the flood prediction system is as follows:
+The overall workflow of the **Rising Waters Flood Prediction System** is shown below:
 
-```text
-Start
-  ↓
-Enter Weather Data
-  ↓
-Validate Input
-  ↓
-Scale Input Data
-  ↓
-Machine Learning Model Prediction
-  ↓
-Flood Condition?
-  ↓
- ┌───────────────┴───────────────┐
- ↓                               ↓
-Yes                             No
- ↓                               ↓
-Flood Prediction Page            Safe Page
-(Flood Detected)                 (No Flood)
- ↓                               ↓
-          End
+```mermaid
+flowchart TD
+
+    A([Start]) --> B[Enter Weather Data]
+    B --> C[Validate Input]
+    C --> D[Scale Data]
+    D --> E[Machine Learning Model Prediction]
+    E --> F{Flood Condition?}
+
+    F -->|Yes| G[Flood Prediction Page]
+    F -->|No| H[Safe Page<br>(No Flood Detected)]
+
+    G --> I([End])
+    H --> I([End])
