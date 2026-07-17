@@ -5,14 +5,17 @@ The overall workflow of the **Rising Waters Flood Prediction System** is shown b
 ```mermaid
 flowchart TD
 
-    A([Start]) --> B[Enter Weather Data]
-    B --> C[Validate Input]
-    C --> D[Scale Data]
-    D --> E[Machine Learning Model Prediction]
-    E --> F{Flood Condition?}
+    A([Start]) --> B[User Enters Weather Data]
+    B --> C[Validate Input Data]
+    C --> D[Scale Input Features]
+    D --> E[Load Trained Machine Learning Model]
+    E --> F[Generate Flood Prediction]
 
-    F -->|Yes| G[Flood Prediction Page]
-    F -->|No| H[Safe Page<br>(No Flood Detected)]
+    F --> G{Flood Detected?}
 
-    G --> I([End])
-    H --> I([End])
+    G -->|Yes| H[Flood Prediction Page]
+    G -->|No| I[Safe Condition Page]
+
+    H --> J([End])
+    I --> J([End])
+```
