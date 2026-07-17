@@ -1,14 +1,23 @@
-Requirement analysis identifies the functional and technical requirements necessary to successfully develop the flood prediction system.
-Functional Requirements
+## Requirements Analysis
+
+Requirement analysis identifies the functional and technical requirements needed for the successful development of the flood prediction system.
+
+## Functional Requirements
+
 The system shall:
-•	Allow users to enter weather parameters. 
-•	Predict flood occurrence. 
-•	Display prediction results. 
-•	Load the trained Machine Learning model. 
-•	Scale input values before prediction. 
-Non-functional Requirements
-•	User-friendly interface. 
-•	Fast response time. 
-•	Reliable predictions. 
-•	Responsive web pages. 
-•	Easy deployment. 
+
+- Allow users to enter weather-related parameters.
+- Predict the possibility of flood occurrence using a trained Machine Learning model.
+- Display prediction results through the web application.
+- Load the pre-trained Machine Learning model for making predictions.
+- Scale input values before providing them to the prediction model.
+
+## Non-Functional Requirements
+
+The system should provide:
+
+- A user-friendly interface for easy interaction.
+- Fast response time for generating predictions.
+- Reliable and accurate flood predictions.
+- Responsive web pages compatible with different devices.
+- Easy deployment and maintenance.
