@@ -1,9 +1,24 @@
-Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
-Exploratory Data Analysis was performed to understand the characteristics of the dataset before model development. Different visualizations were created to analyze the distribution of variables and identify relationships among features.
+Exploratory Data Analysis (EDA) was performed to understand the characteristics, patterns, and relationships present in the dataset before developing the Machine Learning models.
 
+Various visualization techniques were used to analyze feature distributions, detect outliers, and identify relationships between weather parameters and flood occurrence.
 
-Univariate Analysis : Univariate analysis was performed to study the distribution of individual features. Histograms were generated for numerical attributes to observe their spread and frequency, while boxplots were used to identify potential outliers.
+### Univariate Analysis
 
+Univariate analysis was performed to study the distribution of individual features.
 
-Bivariate analysis : Bivariate analysis was carried out to understand the relationship between different variables. A correlation heatmap was generated to visualize the strength of relationships among weather parameters and the target variable.
+The following techniques were used:
+
+- **Histograms:** Used to visualize the distribution, frequency, and spread of numerical features.
+- **Boxplots:** Used to identify potential outliers and understand the variation within each feature.
+
+### Bivariate Analysis
+
+Bivariate analysis was performed to analyze relationships between multiple variables.
+
+The following technique was used:
+
+- **Correlation Heatmap:** Generated to visualize the strength of relationships between different weather parameters and the target variable (**Flood Label**).
+
+EDA helped in understanding important patterns in the dataset and supported better feature selection and model development.
