@@ -1,9 +1,32 @@
-Dataset Collection
+## Dataset Collection and Data Preprocessing
 
-The dataset used in this project consists of historical weather-related parameters that influence flood occurrence. It contains features such as temperature, humidity, cloud cover, annual rainfall, seasonal rainfall, average June rainfall, subdivision rainfall, and the flood label. After loading the dataset into a Pandas DataFrame, the data was examined using functions such as head(), info(), and describe() to understand its structure and identify any missing or inconsistent values.
+### Dataset Collection
 
+The dataset used in this project consists of historical weather-related parameters that influence flood occurrence. It contains important features such as:
 
-Data Preprocessing
+- Temperature
+- Humidity
+- Cloud Cover
+- Annual Rainfall
+- Seasonal Rainfall
+- Average June Rainfall
+- Subdivision Rainfall
+- Flood Label
 
-Before training the models, the dataset was preprocessed to improve the quality of the input data. Missing values and duplicate records were checked, and outliers were handled using the Interquartile Range (IQR) method. This reduced the influence of extreme values on model performance. Finally, the features and target variable were separated for further processing.
+After loading the dataset into a **Pandas DataFrame**, the data was analyzed using functions such as `head()`, `info()`, and `describe()` to understand the dataset structure, identify missing values, and detect inconsistencies.
+
+---
+
+### Data Preprocessing
+
+Before training the Machine Learning models, the dataset was preprocessed to improve data quality and model performance.
+
+The preprocessing steps included:
+
+- Checking and handling missing values.
+- Removing duplicate records.
+- Detecting and handling outliers using the **Interquartile Range (IQR) method**.
+- Separating input features and target variable for model training.
+
+These preprocessing techniques helped reduce the impact of noisy data and improved the reliability of flood prediction results.
 
